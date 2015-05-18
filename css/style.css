@@ -1,0 +1,56 @@
+/* Base Styles -------------------- */
+
+body {
+  color: #878787;
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+/* Nav Bar Color */
+nav {
+background-color: rgb(245, 172, 83);
+color: rgb(16, 22, 74);
+}
+
+.contact ul {
+list-style-type: none;
+}
+
+.navigation ul {
+list-style-type: none;
+}
+
+.footer ul {
+list-style-type: none;
+}
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: rgb(16, 22, 74);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+a:active {
+  background-color: rgb(16, 22, 74);
+  color: rgb(255, 255, 255);
+}
+
+/* Main Styles --------------------- */
+
+.banner img {
+  max-width: 100%;
+}
+
+
+
+
+

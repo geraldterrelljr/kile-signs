@@ -1,27 +1,41 @@
 /* Base Styles -------------------- */
 
 body {
-  color: #878787;
+  color: rgb(68, 68, 68);
   margin: 0;
-  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo img {
   max-width: 100%;
 }
 
-/* Nav Bar Color */
-nav {
-background-color: rgb(245, 172, 83);
-color: rgb(16, 22, 74);
-}
-
 .contact ul {
 list-style-type: none;
 }
 
-.navigation ul {
+.serving {
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(16, 22, 74);
+}
+
+/* Navigation */
+nav {
+background-color: rgb(245, 172, 83);
+color: rgb(16, 22, 74);
+text-transform: uppercase;
+font-weight: bold;
+}
+
+nav ul {
 list-style-type: none;
+}
+
+.services {
+  background-color: rgb(245, 172, 83);
+  text-transform: capitalize;
+  color: #000;
 }
 
 .footer ul {
@@ -31,6 +45,11 @@ list-style-type: none;
 /* Pseudo-classes ------------------ */
 
 a:link {
+  color: rgb(16, 22, 74);
+  text-decoration: none;
+}
+
+a:visited {
   color: rgb(16, 22, 74);
   text-decoration: none;
 }
@@ -47,8 +66,10 @@ a:active {
 
 /* Main Styles --------------------- */
 
-.banner img {
+.banner {
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 

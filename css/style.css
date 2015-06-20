@@ -1,3 +1,6 @@
+/* Media Queries */
+
+
 /* Base Styles -------------------- */
 
 body {
@@ -8,6 +11,8 @@ body {
 
 .logo img {
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact ul {
@@ -30,6 +35,17 @@ font-weight: bold;
 
 nav ul {
 list-style-type: none;
+padding-left: 0;
+
+}
+
+nav li {
+  display: block;
+  padding-left: 40px;
+}
+
+nav li:hover {
+  background-color: rgb(16, 22, 74);
 }
 
 .services {
@@ -42,26 +58,44 @@ list-style-type: none;
 list-style-type: none;
 }
 
-/* Pseudo-classes ------------------ */
 
-a:link {
+/* Navigation Pseudo-classes ------------------ */
+
+nav a:link {
   color: rgb(16, 22, 74);
   text-decoration: none;
 }
 
-a:visited {
-  color: rgb(16, 22, 74);
+nav a:visited {
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   background-color: rgb(16, 22, 74);
   color: rgb(255, 255, 255);
 }
 
-a:active {
+nav a:active {
   background-color: rgb(16, 22, 74);
   color: rgb(255, 255, 255);
+}
+/* Footer Pseudo-classes ------------------ */
+
+.footer a:link {
+  text-decoration: none;
+}
+
+.footer a:visited {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer a:active {
+  text-decoration: none;
 }
 
 /* Main Styles --------------------- */

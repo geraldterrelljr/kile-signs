@@ -6,6 +6,13 @@
 body {
   color: rgb(68, 68, 68);
   font-family: 'Roboto', sans-serif;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  padding-top: 15px;
 }
 
 .logo img {
@@ -14,38 +21,53 @@ body {
   margin-right: auto;
 }
 
+.phone {
+  float: left;
+  padding-left: 20px;
+}
+.email {
+  float: right;
+  padding-right: 20px;
+}
+.contact a {
+  color: rgb(44, 63, 120);
+    font-weight: bold;
+}
+
 .contact ul {
   list-style-type: none;
+  color: rgb(44, 63, 120);
   padding: 0;
 }
 
 .serving {
+  clear: both;
+  text-align: center;
+  padding-top: 5px;
   font-style: italic;
   font-weight: bold;
-  color: rgb(16, 22, 74);
+  font-size: 1.10em;
+  color: rgb(44, 63, 120);
 }
 
 /* Navigation */
 nav {
 background-color: rgb(245, 172, 83);
-color: rgb(16, 22, 74);
+color: rgb(44, 63, 120);
 text-transform: uppercase;
 font-weight: bold;
 }
 
 nav ul {
 list-style-type: none;
-padding: 0;
-
 }
 
 nav li {
   display: block;
-  padding-left: 40px;
 }
 
 nav li:hover {
-  background-color: rgb(16, 22, 74);
+  background-color: rgb(44, 63, 120);
 }
 
 .services {
@@ -66,7 +88,7 @@ text-decoration: none;
 /* Navigation Pseudo-classes ------------------ */
 
 nav a:link {
-  color: rgb(16, 22, 74);
+  color: rgb(44, 63, 120);
   text-decoration: none;
 }
 
@@ -76,12 +98,12 @@ nav a:visited {
 }
 
 nav a:hover {
-  background-color: rgb(16, 22, 74);
+  background-color: rgb(44, 63, 120);
   color: rgb(255, 255, 255);
 }
 
 nav a:active {
-  background-color: rgb(16, 22, 74);
+  background-color: rgb(44, 63, 120);
   color: rgb(255, 255, 255);
 }
 /* Footer Pseudo-classes ------------------ */
